@@ -26,7 +26,7 @@
 
     <groupId>io.microprofile</groupId>
     <artifactId>microprofile-bom</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>MicroProfile Bill of Materials</name>
     <description>MicroProfile Bill of Materials (BOM)</description>
