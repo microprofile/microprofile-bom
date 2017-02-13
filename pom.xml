@@ -76,23 +76,25 @@
                 <groupId>javax.enterprise</groupId>
                 <artifactId>cdi-api</artifactId>
                 <version>${cdi.version}</version>
-                <scope>provided</scope>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>javax.inject</groupId>
                 <artifactId>javax.inject</artifactId>
                 <version>${javax.inject.version}</version>
-                <scope>provided</scope>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>javax.json</groupId>
                 <artifactId>javax.json-api</artifactId>
                 <version>${javax.json.version}</version>
+                <scope>compile</scope>
             </dependency>
             <dependency>
                 <groupId>javax.ws.rs</groupId>
                 <artifactId>javax.ws.rs-api</artifactId>
                 <version>${javax.jaxrs.version}</version>
+                <scope>compile</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
