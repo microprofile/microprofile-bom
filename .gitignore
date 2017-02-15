@@ -1,7 +1,19 @@
+# Class Files #
 *.class
 
-# Mobile Tools for Java (J2ME)
+# Temporary Files #
 .mtj.tmp/
+
+# Eclipse Files #
+/.settings
+/.classpath
+/.project
+
+# IntelliJ IDEA Files #
+.idea
+*.iml
+*.ipr
+*.iws
 
 # Package Files #
 *.jar
