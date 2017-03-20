@@ -9,6 +9,15 @@
 /.classpath
 /.project
 
+<<<<<<< HEAD
+=======
+# IntelliJ IDEA Files #
+.idea
+*.iml
+*.ipr
+*.iws
+
+>>>>>>> branch 'master' of https://github.com/keilw/microprofile-bom.git
 # Package Files #
 *.jar
 *.war

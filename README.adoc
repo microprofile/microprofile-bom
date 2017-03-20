@@ -1,0 +1,20 @@
+= The MicroProfile "Bill of Materials"
+
+Top level github repository for defining the content of the MicroProfile deliverables.
+
+== Usage
+
+Add this dependency to your project's pom.xml:
+
+[source,xml]
+----
+<dependency>
+    <groupId>io.microprofile</groupId>
+    <artifactId>microprofile</artifactId>
+    <version>1.0.0</version>
+    <type>pom</type>
+    <scope>provided</scope>
+</dependency>
+----
+
+You will then be able to work with all the Java EE APIs supported by MicroProfile implementations.
