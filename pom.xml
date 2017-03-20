@@ -12,9 +12,8 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -56,6 +55,27 @@
             <post>microprofile@googlegroups.com</post>
         </mailingList>
     </mailingLists>
+
+    <developers>
+        <developer>
+            <id>jclingan</id>
+            <name>John Clingan</name>
+            <organization>IBM</organization>
+            <roles>
+                <role>Committer</role>
+                <role>Project Lead</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>kwsutter</id>
+            <name>Kevin Sutter</name>
+            <organization>Red Hat</organization>
+            <roles>
+                <role>Committer</role>
+                <role>Project Lead</role>
+            </roles>
+        </developer>
+    </developers>
 
     <properties>
         <cdi-version>1.2</cdi-version>
