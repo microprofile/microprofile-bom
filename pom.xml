@@ -19,7 +19,7 @@
     <groupId>io.microprofile</groupId>
     <artifactId>microprofile</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>MicroProfile BOM</name>
     <description>The MicroProfile "Bill of Materials"</description>
@@ -48,7 +48,7 @@
         <url>https://github.com/microprofile/microprofile-bom</url>
         <connection>scm:git:git://github.com/microprofile/microprofile-bom.git</connection>
         <developerConnection>scm:git:git@github.com:microprofile/microprofile-bom.git</developerConnection>
-        <tag>1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
