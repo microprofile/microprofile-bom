@@ -39,6 +39,13 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <name>MicroProfile Community</name>
+            <url>https://groups.google.com/forum/#!forum/microprofile</url>
+        </developer>
+    </developers>
+
     <scm>
         <url>https://github.com/microprofile/microprofile-bom</url>
         <connection>scm:git:git://github.com/microprofile/microprofile-bom.git</connection>
@@ -86,7 +93,7 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <tagNameFormat>@{project.version}</tagNameFormat>
                     <preparationGoals>clean install</preparationGoals>
-                    <!--<pushChanges>true</pushChanges>-->
+                    <pushChanges>true</pushChanges>
                     <localCheckout>false</localCheckout>
                     <arguments>-DskipTests</arguments>
                 </configuration>
@@ -125,7 +132,7 @@
                         <configuration>
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                             <serverId>ossrh</serverId>
-                            <!--<autoReleaseAfterClose>true</autoReleaseAfterClose>-->
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>
                     </plugin>
                     <plugin>
